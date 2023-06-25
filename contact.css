@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(207, 169, 119);
+}
+/*..............head section.................*/
+.head{
+   /* border: 2px solid black;*/
+    margin: 20px 40px 10px 40px;
+    background-color: rgb(123, 197, 197);
+
+    height: 70px;
+   /* padding-top: 2%;
+    padding-right: 7%;
+    padding-bottom: 0%;*/
+
+    display: flex;
+}
+.head .nav{
+    display: flex;
+    padding-top: 10px;
+    width: 35%;
+}
+.head .nav ul{
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+.head .nav ul li{   
+    margin: auto 6%;  
+}
+.head .nav ul li a{
+    text-decoration: none;
+    color: rgb(96, 12, 29);
+}
+.head .nav ul li a:active{
+    text-decoration: none;
+    color: rgb(218, 80, 107);
+}
+
+
+.head .title{ 
+    position: relative;/*get the distance from its real position*/
+    left: 45%;
+    text-align: center; 
+    display: flex;   
+}
+/*..............head section.................*/
+
+
+/*..............middle section.................*/
+.middle{
+   /* border: 2px solid black;*/
+    margin: 0px 50px 10px 50px;
+    background-color: bisque;
+    color: rgb(121, 7, 7);
+    padding-top: 0.5%;
+    padding-bottom: 0%;
+    
+}
+
+.middle p,h1{
+    text-align: center;
+}
+
+.para{
+    display: flex;
+
+}
+.para1 {
+    color: blue;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.para2{
+    color: rgb(37, 37, 59);
+    margin-left: 2%;
+    margin-right: 3%;
+    
+}
+.para img{
+    height: 57%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    background-color: rgba(127, 255, 212, 0.314);
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+.form .name{
+    /*border: 2px solid black;*/
+    padding-left: 80px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+}
+#x{
+   font-size: 20px;
+}
+.form .name .father{
+    padding-left: 7%;
+}
+.form .name .Mother{
+    padding-left: 7%;
+}
+
+
+.form .name1{
+    /*border: 2px solid black;*/
+    padding-left: 80px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: black;
+}
+.form .name1 .father{
+    padding-left: 8%;
+}
+.form .name1 .Mother{
+    padding-left: 7%;
+}
+
+.form .name2{
+    /*border: 2px solid black; */
+    padding-left: 80px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: black;
+}
+
+.form .name2 .father{
+    padding-left: 7%;
+}
+.form .name2 .Mother{
+    padding-left: 7%;
+}
+.submit{
+     display: flex;
+     justify-content: center;
+}
+.submit button {
+    border-style: none;
+    font-size: 30px;
+    background-color: rgba(10, 147, 53, 0.295);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin:2% auto;
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submit a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.537);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submit button:hover{
+    background-color: rgba(10, 147, 53, 0.405);
+    color: rgba(0, 0, 0, 0.537);
+
+}
+.form .name:hover, .name1:hover,.name2:hover{
+    background-color: rgb(250, 229, 215);
+    color: rgb(121, 7, 7);;
+
+}
+
+
+
+
+/*..............middle section.................*/
+
+
+/*..............end section.................*/
+.tail{
+   /* border: 2px solid black;*/
+    margin: 0px 40px 10px 40px;
+    text-align: center;
+    background-color: rgb(89, 143, 143);
+}
+.thank img{
+    width: 50%;
+    height: 30%;
+    position: relative;
+    right: 0%;
+    left: 25%;
+}
+/*..............Thank you.................*/
